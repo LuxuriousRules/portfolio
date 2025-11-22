@@ -1,0 +1,49 @@
+.main{
+    overflow-x: hidden;
+
+.main__video{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+.main__title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0; margin: auto;
+    transform: translateY(-400px);
+    font-family: "Montserrat";
+    
+}
+
+
+.main__title-container__caption,
+.main__title-container__subtitle{
+    margin-bottom: 0;
+    margin-top: 1vh;
+    font-weight: 600;
+    font-size: clamp(16px, 3vw, 25px);
+}
+
+.main__title-container__title{
+     font-size: clamp(30px, 3vw, 60px);
+}
+
+.main__title-container__btn{
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: "Montserrat";
+    padding: 1.5vw; margin-top: 2.5vh;
+    
+
+}
+}

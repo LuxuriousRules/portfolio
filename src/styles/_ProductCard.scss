@@ -1,0 +1,35 @@
+.Shop{
+    overflow-x: hidden;
+
+.Shop__product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    width: 100%;
+}
+
+.Shop__img{
+    width: 70vw;
+    height: auto;
+}
+
+.Shop__title,
+.Shop__description,
+.Shop__price{
+    font-family: "Montserrat";
+    font-size: clamp(16px, 5vw, 50px);
+    
+}
+
+.Shop__description,
+.Shop__price{
+    font-size: larger;
+    font-size: clamp(16px, 5vw, 50px);
+    margin-bottom: 1vh;
+}
+
+}
+
+
