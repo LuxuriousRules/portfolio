@@ -1,0 +1,26 @@
+@use './variables' as *;
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    background-color: $background-color;
+    padding: 1.5vh;
+
+.footer__links{
+    display: flex;
+    gap: 1.5vw;
+}
+
+.footer-linksImgs{
+     display: flex;
+     gap: 3.5vw;
+}
+
+
+.header__link{
+    font-family: $font-text;
+    color: black;  
+}
+}

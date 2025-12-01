@@ -16,19 +16,19 @@ function Header() {
       const desktop = window.innerWidth >= 600;
       setIsDesktop(desktop);
       if (desktop) {
-        setIsOpen(true); // на десктопе меню всегда открыто
+        setIsOpen(true); 
       } else {
-        setIsOpen(false); // на мобиле меню скрыто по умолчанию
+        setIsOpen(false); 
       }
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize(); // вызвать при монтировании
+    handleResize(); 
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // анимация бургер ↔ крест (только для мобилы)
+  
   useEffect(() => {
     if (!isDesktop) {
       if (isOpen) {

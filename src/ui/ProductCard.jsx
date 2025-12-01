@@ -13,7 +13,7 @@ function ProductCard ({product}) {
 
  return (
  
-    <div key={product.id} className="Shop__product-card" data-aos="fade-up" data-aos-delay={product.id * 100}>
+    <div key={product.id} className="Shop__product-card">
         <h1 className="Shop__title">{product.title}</h1>
         <img className="Shop__img" src={product.image} alt={product.description} />
         <p className="Shop__description">{product.description}</p>

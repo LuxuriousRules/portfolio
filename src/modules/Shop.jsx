@@ -1,4 +1,5 @@
 import ProductCard from "../ui/ProductCard";
+import Footer from "./Footer";
 
 function Shop () {
     const products = [
@@ -38,8 +39,9 @@ function Shop () {
 
         ))}
          
-       
+       <Footer/>
         </div>
+        
          
     );
 }

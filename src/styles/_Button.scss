@@ -1,7 +1,14 @@
 .ui-button{
+   color: white;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: x-large;
     font-family: "Montserrat";
-    font-size: clamp(16px, 5vw, 50px);
-    width: clamp(100px, 25vw, 400px);
+    padding: 1.5vw; margin-top: 2.5vh;
+    margin-bottom: 1.5vh;
+    
 }
 
 .timer{
@@ -9,10 +16,13 @@
     align-items: center;
     justify-items: center;
     flex-direction: column;
-
-.timer__item{
     font-family:"Montserrat" ;
-    font-size: xx-large;
+    font-size: x-large;
+    background-color: rgb(250, 238, 223);
+    
+    
+.timer__items{
+    font-weight: 700;
 }
 
 }
